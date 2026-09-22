@@ -129,7 +129,7 @@
                     "id": 2,
                     "label": "Zeitview Manager",
                     "link": {"href": "", "tooltipString": ""},
-                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "img": "images/pictures/profile-picture.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
@@ -157,7 +157,7 @@
                     "id": 4,
                     "label": "BalaKrishna IAS Client",
                     "link": {"href": "", "tooltipString": ""},
-                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "img": "images/pictures/profile-picture.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
