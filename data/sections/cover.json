@@ -129,7 +129,7 @@
                     "id": 2,
                     "label": "Zeitview Manager",
                     "link": {"href": "", "tooltipString": ""},
-                    "img": "images/pictures/profile-picture.jpg",
+                    "img": "images/pictures/profile-picture.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
