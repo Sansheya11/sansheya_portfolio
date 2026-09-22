@@ -1,0 +1,98 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Recent",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
+        }
+    },
+
+    "articles": []
+}
+                            "title": "{{캘리포니아로 이사!}}",
+                            "province": "온타리오",
+                            "country": "캐나다",
+                            "institution": "",
+                            "text": "최근에 미국 캘리포니아로 이사하여 새로운 직업적, 개인적 기회를 탐색하고 있습니다. 이 활기찬 주가 제공하는 것들을 발견하고, 이 새로운 장에서 오는 모든 도전과 경험을 받아들이는 것이 기대됩니다. 앞으로의 여정과 황금 주에서 기다리는 모험에 대한 업데이트를 기대해 주세요!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Key {{Projects}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Some of the most meaningful work I’ve built includes a mix of client-facing products, enterprise systems, and personal innovation projects.",
+                            "list": [
+                                "CRM Application for SMB (Freelance) — Full Stack, 2023–2025: End-to-end MERN CRM designed from the ground up with MongoDB schema design, Node.js/Express REST APIs, React.js frontend, and secure multi-role JWT authentication with role-based access control. I independently architected, built, and deployed this client-facing system.",
+                                "Wheeliyo Vehicle Marketplace — Web App, Dec 2025–Present: Vehicle buy/sell/auction platform with a bank-integrated real-time auction flow, serving 1,000+ active users. I own the end-to-end product flow and CI/CD pipeline, reducing deployment time by 66%.",
+                                "Real-Time Anomaly Detection Dashboard — Dec 2024–Aug 2025: Enterprise monitoring dashboard built with live charts and async API caching, improving rendering performance by 28% and reducing manual review time by ~30%.",
+                                "Kissflow No-Code Workflow Builder — Jul 2023–Aug 2024: Delivered leave management and employee management modules in a multi-step, responsive enterprise SaaS workflow UI, while reducing JavaScript bundle size by 20% through Webpack optimization.",
+                                "BalaKrishnan IAS Chatbot (Freelance) — 2023–2025: AI chatbot with real-time WebSocket streaming UI and a WCAG-accessible interface, deployed end-to-end on Next.js with a Python backend and direct client collaboration from scoping to delivery.",
+                                "In addition to these, I’ve also worked on smaller college projects and experimental builds, and I’m currently building AARA — an AI-powered mobile safety and wellness companion for women. AARA combines emergency SOS, GPS location sharing, voice and gesture-based safety detection, guardian alerts, and an AI companion focused on emotional and menstrual wellness."
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {"year": 2025, "month": 9},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Key {{Projects}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "",
+                            "text": "Some of the most meaningful work I’ve built includes a mix of client-facing products, enterprise systems, and personal innovation projects.",
+                            "list": [
+                                "CRM Application for SMB (Freelance) — Full Stack, 2023–2025: End-to-end MERN CRM designed from the ground up with MongoDB schema design, Node.js/Express REST APIs, React.js frontend, and secure multi-role JWT authentication with role-based access control. I independently architected, built, and deployed this client-facing system.",
+                                "Wheeliyo Vehicle Marketplace — Web App, Dec 2025–Present: Vehicle buy/sell/auction platform with a bank-integrated real-time auction flow, serving 1,000+ active users. I own the end-to-end product flow and CI/CD pipeline, reducing deployment time by 66%.",
+                                "Real-Time Anomaly Detection Dashboard — Dec 2024–Aug 2025: Enterprise monitoring dashboard built with live charts and async API caching, improving rendering performance by 28% and reducing manual review time by ~30%.",
+                                "Kissflow No-Code Workflow Builder — Jul 2023–Aug 2024: Delivered leave management and employee management modules in a multi-step, responsive enterprise SaaS workflow UI, while reducing JavaScript bundle size by 20% through Webpack optimization.",
+                                "BalaKrishnan IAS Chatbot (Freelance) — 2023–2025: AI chatbot with real-time WebSocket streaming UI and a WCAG-accessible interface, deployed end-to-end on Next.js with a Python backend and direct client collaboration from scoping to delivery.",
+                                "In addition to these, I’ve also worked on smaller college projects and experimental builds, and I’m currently building AARA — an AI-powered mobile safety and wellness companion for women. AARA combines emergency SOS, GPS location sharing, voice and gesture-based safety detection, guardian alerts, and an AI companion focused on emotional and menstrual wellness."
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

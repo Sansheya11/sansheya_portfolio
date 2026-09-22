@@ -1,0 +1,161 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/experience/wheeliyo.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Developer – React & TypeScript",
+                            "province": "Bengaluru",
+                            "country": "India",
+                            "institution": "Wheeliyo",
+                            "text": "",
+                            "list": [
+                                "Built a vehicle buy/sell/auction mobile app using JavaScript, React Native, React.js, TypeScript, Node.js/MongoDB serving 1,000+ active users, collaborating daily with cross-functional product and backend teams — a multi-tiered, customer-facing internet application.",
+                                "Developed the in-app auction feature using JavaScript and React Native, handling asynchronous, real-time bank-integrated bidding requests with partial UI updates for buyers and sellers.",
+                                "Designed and consumed 10+ REST/JSON API endpoints via AJAX and implemented scalable, modular Redux state architecture across complex multi-view flows, reducing duplicate code by ~40%.",
+                                "Configured GitHub Actions CI/CD and Docker-based deployment pipeline on Microsoft Azure, cutting deployment time by 66%, while mentoring 2 junior developers in a 5-person Agile/Scrum team."
+                            ],
+                            "tags": ["React Native", "React", "TypeScript", "Node.js", "MongoDB", "Azure"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/experience/zietview.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 12},
+                    "dateEnd": {"year": 2025, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer – React & Redux",
+                            "province": "Bengaluru",
+                            "country": "India",
+                            "institution": "Zeitview",
+                            "text": "",
+                            "list": [
+                                "Built real-time anomaly detection and data visualisation dashboards using JavaScript, React.js and TypeScript, cutting manual review time by ~30%.",
+                                "Engineered an asynchronous REST/JSON API integration layer in JavaScript with caching and error boundaries, reducing redundant network calls by 35%.",
+                                "Deployed and monitored dashboard services on Microsoft Azure, supporting reliable delivery of real-time anomaly detection features.",
+                                "Applied Test-Driven Development with Jest and React Testing Library, achieving 80%+ unit and integration test coverage across core modules.",
+                                "Collaborated daily with backend developers and QA in an Agile environment, working independently with stakeholders to ship features on schedule."
+                            ],
+                            "tags": ["React", "TypeScript", "WebSockets", "Testing", "Azure"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/experience/kissflow.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 7},
+                    "dateEnd": {"year": 2024, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer – React & SCSS",
+                            "province": "Bengaluru",
+                            "country": "India",
+                            "institution": "Kissflow",
+                            "text": "",
+                            "list": [
+                                "Delivered 8+ responsive, WCAG-accessible, cross-browser-compatible JavaScript/React.js features for a globally used enterprise SaaS product, following secure coding standards.",
+                                "Designed multi-step workflow builder state using Redux Toolkit and Context API, applying reusable component patterns and modular, well-tested software practices for an enterprise n-tier UI.",
+                                "Styled and maintained a large SCSS codebase and reduced JavaScript bundle size by 20% through Webpack configuration, tree-shaking, and dead-code elimination."
+                            ],
+                            "tags": ["React", "SCSS", "Redux Toolkit", "Accessibility"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/experience/internships.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 11},
+                    "dateEnd": {"year": 2023, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer Intern",
+                            "province": "",
+                            "country": "India",
+                            "institution": "Protorix · Relevantz · Almi DM",
+                            "text": "",
+                            "list": [
+                                "Protorix: Built a JavaScript/React.js + Redux CRM dashboard with a WCAG-accessible Bootstrap layout for 200+ users.",
+                                "Relevantz: Integrated a Python-based ML-powered music detection model into a JavaScript browser app using cloud-aware asynchronous logic and REST API integration.",
+                                "Almi DM: Built dynamic ad widgets and product-visibility components in JavaScript, improving visibility by 15% across 200+ listings."
+                            ],
+                            "tags": ["React", "Redux", "Bootstrap", "Accessibility"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/experience/internships.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2023, "month": 1},
+                    "dateEnd": {"year": 2025, "month": 11},
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Developer (Freelance)",
+                            "province": "",
+                            "country": "",
+                            "institution": "Independent Client Projects",
+                            "text": "",
+                            "list": [
+                                "Independently architected and delivered 3+ full-stack web applications using JavaScript (React.js, MERN stack) end-to-end, all on time and within scope, working directly with business owners to define requirements.",
+                                "BalaKrishnan IAS Chatbot: Built an AI chatbot in JavaScript with a real-time WebSocket streaming UI and a WCAG-accessible interface, deployed on Next.js with a Python backend."
+                            ],
+                            "tags": ["React", "MERN", "Freelance"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
