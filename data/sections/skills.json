@@ -1,0 +1,594 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Languages" },
+                "es": { "title": "Lenguajes" },
+                "fr": { "title": "Langages" },
+                "ko": { "title": "언어" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": { "fill": "#F7DF1E" },
+                    "locales": { "en": { "title": "JavaScript (ES6+)" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-js-square",
+                    "faIconColors": { "fill": "#3178c6" },
+                    "locales": { "en": { "title": "TypeScript" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": { "fill": "#3776AB" },
+                    "locales": { "en": { "title": "Python" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": { "fill": "#E34F26" },
+                    "locales": { "en": { "title": "HTML5" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": { "fill": "#1572B6" },
+                    "locales": { "en": { "title": "CSS3" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "fill": "#CC2927" },
+                    "locales": { "en": { "title": "SQL" } }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Frontend Frameworks & Libraries" },
+                "es": { "title": "Frameworks y Librerías Frontend" },
+                "fr": { "title": "Frameworks et bibliothèques frontend" },
+                "ko": { "title": "프론트엔드 프레임워크 & 라이브러리" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DAFB" },
+                    "locales": { "en": { "title": "React.js" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": { "fill": "#764ABC" },
+                    "locales": { "en": { "title": "Redux" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": { "fill": "#A855F7" },
+                    "locales": { "en": { "title": "Redux Toolkit" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": { "fill": "#000" },
+                    "locales": { "en": { "title": "Next.js" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-angular",
+                    "faIconColors": { "fill": "#DD0031" },
+                    "locales": { "en": { "title": "Angular" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": { "fill": "#4FC08D" },
+                    "locales": { "en": { "title": "Vue.js" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": { "fill": "#7952B3" },
+                    "locales": { "en": { "title": "Bootstrap" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": { "fill": "#0ea5e9" },
+                    "locales": { "en": { "title": "Context API" } }
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Mobile / Hybrid" },
+                "es": { "title": "Móvil / Híbrido" },
+                "fr": { "title": "Mobile / Hybride" },
+                "ko": { "title": "모바일 / 하이브리드" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": { "fill": "#61DAFB" },
+                    "locales": { "en": { "title": "React Native" } }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Styling & UI" },
+                "es": { "title": "Estilos y UI" },
+                "fr": { "title": "Styles et interface" },
+                "ko": { "title": "스타일링 & UI" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-sass",
+                    "faIconColors": { "fill": "#CC6699" },
+                    "locales": { "en": { "title": "SASS/SCSS" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": { "fill": "#1572B6" },
+                    "locales": { "en": { "title": "CSS3" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": { "fill": "#10b981" },
+                    "locales": { "en": { "title": "Responsive & WCAG-Accessible UI" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": { "fill": "#4CAF50" },
+                    "locales": { "en": { "title": "Webpack" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-bolt",
+                    "faIconColors": { "fill": "#FFD700" },
+                    "locales": { "en": { "title": "Vite" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": { "fill": "#6366f1" },
+                    "locales": { "en": { "title": "Cross-Browser Compatibility" } }
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Backend & APIs" },
+                "es": { "title": "Backend y APIs" },
+                "fr": { "title": "Backend et API" },
+                "ko": { "title": "백엔드 & API" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-node-js",
+                    "faIconColors": { "fill": "#339933" },
+                    "locales": { "en": { "title": "Node.js" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": { "fill": "#000" },
+                    "locales": { "en": { "title": "Express.js" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-plug",
+                    "faIconColors": { "fill": "#4CAF50" },
+                    "locales": { "en": { "title": "RESTful API Design & Integration" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": { "fill": "#f59e0b" },
+                    "locales": { "en": { "title": "JSON" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-shield-halved",
+                    "faIconColors": { "fill": "#ef4444" },
+                    "locales": { "en": { "title": "JWT Authentication" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-arrow-right-arrow-left",
+                    "faIconColors": { "fill": "#3b82f6" },
+                    "locales": { "en": { "title": "AJAX" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-arrows-rotate",
+                    "faIconColors": { "fill": "#8b5cf6" },
+                    "locales": { "en": { "title": "Async/Await" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-wifi",
+                    "faIconColors": { "fill": "#0ea5e9" },
+                    "locales": { "en": { "title": "WebSockets" } }
+                },
+                {
+                    "id": 9,
+                    "faIcon": "fa-solid fa-memory",
+                    "faIconColors": { "fill": "#f97316" },
+                    "locales": { "en": { "title": "Caching" } }
+                },
+                {
+                    "id": 10,
+                    "faIcon": "fa-solid fa-triangle-exclamation",
+                    "faIconColors": { "fill": "#e11d48" },
+                    "locales": { "en": { "title": "Error Boundaries" } }
+                }
+                ,
+                {
+                    "id": 11,
+                    "faIcon": "fa-solid fa-sitemap",
+                    "faIconColors": { "fill": "#06b6d4" },
+                    "locales": { "en": { "title": "Service-Oriented / Modular Architecture" } }
+                },
+                {
+                    "id": 12,
+                    "faIcon": "fa-solid fa-file-code",
+                    "faIconColors": { "fill": "#0ea5e9" },
+                    "locales": { "en": { "title": "Partial Page Updates" } }
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Databases" },
+                "es": { "title": "Bases de datos" },
+                "fr": { "title": "Bases de données" },
+                "ko": { "title": "데이터베이스" }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-leaf",
+                    "faIconColors": { "fill": "#13AA52" },
+                    "locales": { "en": { "title": "MongoDB (NoSQL)" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": { "fill": "#00758F" },
+                    "locales": { "en": { "title": "SQL (Query Writing & Data Validation)" } }
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "CS Fundamentals" },
+                "es": { "title": "Fundamentos de CS" },
+                "fr": { "title": "Fondamentaux informatiques" },
+                "ko": { "title": "CS 기초" }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": { "fill": "#3b82f6" },
+                    "locales": { "en": { "title": "Data Structures & Algorithms" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": { "fill": "#f59e0b" },
+                    "locales": { "en": { "title": "OOP" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-sitemap",
+                    "faIconColors": { "fill": "#10b981" },
+                    "locales": { "en": { "title": "System Design" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-architecture",
+                    "faIconColors": { "fill": "#8b5cf6" },
+                    "locales": { "en": { "title": "Software Architecture" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": { "fill": "#ef4444" },
+                    "locales": { "en": { "title": "Networking Basics" } }
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Testing & Quality" },
+                "es": { "title": "Pruebas y calidad" },
+                "fr": { "title": "Tests et qualité" },
+                "ko": { "title": "테스트 & 품질" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": { "fill": "#C21325" },
+                    "locales": { "en": { "title": "Test-Driven Development (TDD)" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-vial-circle-check",
+                    "faIconColors": { "fill": "#4CAF50" },
+                    "locales": { "en": { "title": "Unit & Integration Testing" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": { "fill": "#E8633E" },
+                    "locales": { "en": { "title": "Jest" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": { "fill": "#8B4789" },
+                    "locales": { "en": { "title": "React Testing Library" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-flask-vial",
+                    "faIconColors": { "fill": "#f59e0b" },
+                    "locales": { "en": { "title": "Jasmine" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": { "fill": "#6366f1" },
+                    "locales": { "en": { "title": "CrossBrowser Testing" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-clipboard-check",
+                    "faIconColors": { "fill": "#0ea5e9" },
+                    "locales": { "en": { "title": "Code Review" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-bug",
+                    "faIconColors": { "fill": "#ef4444" },
+                    "locales": { "en": { "title": "Debugging" } }
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "DevOps & Tools" },
+                "es": { "title": "DevOps y herramientas" },
+                "fr": { "title": "DevOps et outils" },
+                "ko": { "title": "데브옵스 & 도구" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-brands fa-git-alt",
+                    "faIconColors": { "fill": "#F05032" },
+                    "locales": { "en": { "title": "Git" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-github",
+                    "faIconColors": { "fill": "#181717" },
+                    "locales": { "en": { "title": "GitHub" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-code-branch",
+                    "faIconColors": { "fill": "#3b82f6" },
+                    "locales": { "en": { "title": "GitHub Actions" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-gear",
+                    "faIconColors": { "fill": "#f59e0b" },
+                    "locales": { "en": { "title": "Jenkins" } }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": { "fill": "#2496ED" },
+                    "locales": { "en": { "title": "Docker" } }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "fill": "#FF6C37" },
+                    "locales": { "en": { "title": "Postman" } }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-tasks",
+                    "faIconColors": { "fill": "#0052CC" },
+                    "locales": { "en": { "title": "JIRA" } }
+                },
+                {
+                    "id": 8,
+                    "faIcon": "fa-solid fa-forward-step",
+                    "faIconColors": { "fill": "#3DDC84" },
+                    "locales": { "en": { "title": "CI/CD" } }
+                }
+                ,
+                {
+                    "id": 9,
+                    "faIcon": "fa-brands fa-microsoft",
+                    "faIconColors": { "fill": "#00A4EF" },
+                    "locales": { "en": { "title": "Microsoft Azure (App Services, DevOps, Cloud)" } }
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "AI Tools" },
+                "es": { "title": "Herramientas de IA" },
+                "fr": { "title": "Outils d'IA" },
+                "ko": { "title": "AI 도구" }
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": { "fill": "#8b5cf6" },
+                    "locales": { "en": { "title": "Claude" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-mouse-pointer",
+                    "faIconColors": { "fill": "#4CAF50" },
+                    "locales": { "en": { "title": "Cursor" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": { "fill": "#FF6B6B" },
+                    "locales": { "en": { "title": "GitHub Copilot" } }
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": { "title": "Methodologies" },
+                "es": { "title": "Metodologías" },
+                "fr": { "title": "Méthodologies" },
+                "ko": { "title": "방법론" }
+            },
+            "settings": {
+                "max_items_per_row": 4,
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-people-group",
+                    "faIconColors": { "fill": "#a855f7" },
+                    "locales": { "en": { "title": "Agile/Scrum" } }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-repeat",
+                    "faIconColors": { "fill": "#10b981" },
+                    "locales": { "en": { "title": "Iterative & Test-Driven Development" } }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-arrows-spin",
+                    "faIconColors": { "fill": "#3b82f6" },
+                    "locales": { "en": { "title": "Continuous Integration" } }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-handshake",
+                    "faIconColors": { "fill": "#f59e0b" },
+                    "locales": { "en": { "title": "Cross-Functional & Client Collaboration" } }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                    "title_short": "Projects",
+                    "title_short_nav": "Projects",
+                    "title_long_prefix": "Take a look at",
+                    "title_long": "My {{Projects}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilidades"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilitaires"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_apps": "앱",
+                    "category_web": "웹",
+                    "category_utilities": "유틸리티"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-building",
+                    "faIconColors": {"bg": "#1f2937", "fill": "#eeeeee"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CRM Application for SMB",
+                            "date": "2023–2025",
+                            "text": "A business management platform designed to help small and medium businesses manage customers, employees, and day-to-day operations.\n\nIt provides secure role-based access, centralized customer data, workflow management, and tools to streamline business processes.\n\nStack: React.js · JavaScript · Redux · Context API · Node.js · Express.js · MongoDB\nTools: REST APIs · JWT · Bootstrap · SCSS · Docker · Git · GitHub · Postman · Jest",
+                            "tags": ["MERN", "CRM", "JWT", "Full Stack"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-car",
+                    "faIconColors": {"bg": "#0f172a", "fill": "#f8fafc"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Wheeliyo Vehicle Marketplace",
+                            "date": "Dec 2025–Present",
+                            "text": "A vehicle marketplace that allows users to discover, buy, sell, and auction vehicles through a single digital platform.\n\nThe mobile app is the primary experience, offering real-time bidding and a bank-integrated auction flow for a seamless buying experience.\n\nStack: React Native · React.js · TypeScript · JavaScript · Redux Toolkit · Node.js · Express.js\nTools: MongoDB · REST APIs · WebSockets · JWT · Async/Await · GitHub Actions · Docker · Postman · Microsoft Azure",
+                            "tags": ["React Native", "Marketplace", "Auction", "TypeScript", "Azure"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "#2563eb", "fill": "#eff6ff"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Real-Time Anomaly Detection Dashboard",
+                            "date": "Dec 2024–Aug 2025",
+                            "text": "A monitoring platform that helps teams identify and track anomalies across large volumes of operational data in real time.\n\nInteractive dashboards and live visualizations make it easier to monitor system activity, investigate issues, and reduce manual analysis.\n\nStack: React.js · TypeScript · JavaScript · REST APIs · WebSockets · SCSS\nTools: Caching · Webpack · Jest · React Testing Library · Git · Agile/Scrum",
+                            "tags": ["React", "Analytics", "Monitoring", "Performance"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-sitemap",
+                    "faIconColors": {"bg": "#4f46e5", "fill": "#eef2ff"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kissflow No-Code Workflow Builder",
+                            "date": "Jul 2023–Aug 2024",
+                            "text": "An enterprise workflow platform that enables organizations to digitize and manage business processes without traditional coding.\n\nI worked on employee and leave management workflows that help teams automate requests, approvals, and everyday HR processes.\n\nStack: React.js · JavaScript · Redux · HTML5 · CSS3 · SCSS · Bootstrap\nTools: REST APIs · AJAX · Webpack · WCAG · Jest · Git · JIRA · Agile/Scrum",
+                            "tags": ["React", "Workflow", "SaaS", "Web UI"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "#7c3aed", "fill": "#f5f3ff"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BalaKrishnan IAS Chatbot",
+                            "date": "2023–2025",
+                            "text": "An AI-powered educational chatbot designed to provide users with an interactive way to ask questions and receive intelligent responses.\n\nThe application delivers conversations in real time while providing a responsive and accessible experience across devices.\n\nStack: Next.js · React.js · JavaScript · TypeScript · Python · WebSockets\nTools: REST APIs · Async/Await · Git · GitHub · Claude · Cursor · GitHub Copilot",
+                            "tags": ["AI", "Next.js", "Python", "Chatbot"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_apps",
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-heart",
+                    "faIconColors": {"bg": "#ec4899", "fill": "#fdf2f8"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AARA — AI Safety & Wellness Companion",
+                            "date": "2026–Present",
+                            "text": "A mobile safety and wellness companion designed to provide assistance during emergencies and everyday situations.\n\nIt combines SOS assistance, location sharing, guardian alerts, safety detection, and an AI companion for emotional and menstrual wellness support.\n\nStack: React Native · TypeScript · JavaScript · Python · Node.js · Express.js · MongoDB\nTools: AI/ML · REST APIs · WebSockets · JWT · Docker · GitHub · CI/CD · System Design",
+                            "tags": ["AI", "Safety", "Mobile", "Wellness"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
+                    "img": "",
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {"bg": "#0ea5e9", "fill": "#f0f9ff"},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "College & Experimental Projects",
+                            "date": "2022–Present",
+                            "text": "A collection of smaller applications and experiments built to explore different real-world problems and product ideas.\n\nThese projects include productivity tools, AI experiments, web applications, mobile applications, and full-stack prototypes.\n\nStack: Angular · Vue.js · React.js · Next.js · React Native · Node.js · Python · SQL\nTools: MongoDB · Vite · Azure · Jenkins · Docker · Jasmine · Jest · GitHub Actions · Postman",
+                            "tags": ["Experiments", "Learning", "Full Stack", "Architecture"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
